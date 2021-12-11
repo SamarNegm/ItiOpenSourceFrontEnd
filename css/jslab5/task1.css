@@ -1,0 +1,52 @@
+#contactList{
+    border-collapse: collapse;
+}
+tr{
+    border:gray 1px solid;
+}
+td,label,th,thead{
+    margin-right :180px; 
+    margin-left: 20px;
+}
+#pname{
+    color: red;
+    display: none;
+
+}
+#pmail{
+    color: red;
+    display: none;
+
+}
+#pphone{
+    color: red;
+    display: none;
+
+
+}
+input{
+    height: 30px;
+    margin: 20px;
+    width: 200px;
+    border:.5px solid gray;
+    border-radius: 30px;
+    background-color:white;
+    color:black;
+    
+}
+
+
+#submit{
+    width: 110px;
+    color:white;
+    background-color: green;
+}
+i{
+    background-color: none;
+    color:gray;
+}
+button{
+    background-color:white;
+    border: 0px;
+    
+}

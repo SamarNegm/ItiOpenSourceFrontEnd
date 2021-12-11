@@ -1,0 +1,63 @@
+.circle{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.ready{
+    padding: 40px;
+    display:none;
+}
+.study{
+    display:none;
+    padding: 40px;
+}
+.go{
+    display:none;
+    padding: 40px;
+}
+.ready2{
+    color:yellow;
+    display: inline;
+    padding: 40px;
+}
+.study2{
+    color:red;
+    display: inline;
+    padding: 40px;
+}
+.go2{
+    color:green;
+    display: inline;
+    padding: 40px;
+
+}
+.yellowcircle{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.redcircle{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.greencircle{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.hello{
+    margin: 50px auto;
+    margin-top: 50px auto;
+    text-align: center;
+     color:yellow;
+     padding: 85px;
+}
+.div1{
+    margin: 50px auto;
+    text-align: center;
+    background:gray;
+    height: 200px;
+    width: 200px;
+}

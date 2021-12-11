@@ -1,0 +1,104 @@
+button{
+    background-color: red;
+    color: white;
+    border: 2px;
+    width:200px;
+    height: 30px;
+  
+   margin:auto;
+}
+img{
+    height: 400px;
+
+}
+body{
+    background-image:url("/img/background.jpg")
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin: 50px auto;
+    width: 487px;
+    padding-bottom: 1px;
+   
+
+    text-align: center;
+
+}
+.bottomText{
+    text-align: left;
+ 
+}
+.dataFrame{
+   margin: 20px;
+
+
+}
+.loginT{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+.f{
+    text-align: left;
+}
+
+label,a{
+    text-size-adjust: 20px;
+    color:aliceblue;
+    text-decoration: none;
+    text-align: left;
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+input,select{
+    width:-webkit-fill-available;
+    margin: 8px;
+    height: 30px;
+    border-radius: 20px;
+}
+button{
+    text-align: center;
+    color: white;
+    background-color: #c70707;
+    border-radius: 42px;
+    width: -webkit-fill-available;
+    margin: 15px;
+    height: 40px;
+}
+.radio{
+    height: 15px;
+    width: 15px;
+    margin: 0;
+}
+.cb{
+    width:20px;
+    border-radius:20px;
+    color:red;
+    background-color: #c70707;
+}
+#output1{
+    display:none;
+}
+#output2{
+    display:none;
+}
+#output3{
+    display:none;
+}
+#output4{
+    display:none;
+}
+#output5{
+    display:none;
+}
+#output6{
+    display:none;
+}
+p{
+    color:red;
+  
+    
+}

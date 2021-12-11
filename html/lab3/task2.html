@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/jslab3/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dataFrame">
+            <!-- <form> -->
+            <fieldset onsubmit="labcssSecond.html">
+                <legend> <img src="/img/background.jpg" alt="Avatar" style="width:100px ;border-radius:50%  ;width: 100px;height: 100px;      margin: 8px;
+                            padding-top: 9px;
+                            border-bottom-width: 8px;">
+                </legend>
+                <div class="loginT">
+                    <br>
+                    <label>Login Here</label>
+                </div>
+                <div class="f">
+                    <label for="uname">User Name</label>
+                    <p id="output1"> Name is required*</p>
+                    <input type="text" name="" id="uname">
+
+                    <br>
+                    <label for="email">Email</label>
+                    <p id="output2"> Email is required*</p>
+                    <input type="text" name="" id="email">
+                    <br>
+
+                    <label for="upass">Password</label>
+                    <p id="output3"> Password must be at least 8 chars*</p>
+                    <input type="password" name="" id="upass">
+                    <p id="output6">Select you Country*</p>
+                    <label for="countries">Countries</label>
+                    <select name="countries" id="countries">
+                        <option value="none"></option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="US">US</option>
+                        <option value="Grmany">Grmany</option>
+                        <option value="Yamen">Yamen</option>
+                    </select>
+                    <p id="output4"> You must select your gender*</p>
+                    <table>
+
+                        <tr>
+                            <td>
+                                <label for="f">Femal</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="f" name="r1" class="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="m">Male</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="r1" id="m" class="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p id="output5"> You must select 2 sports*</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Sports</label></td>
+                            <td><input type="checkbox" class="cb" id="tennis"></td>
+                            <td><label for="tennis">Tennis </label> </td>
+
+                            <td><input type="checkbox" class="cb" id="Football"></td>
+                            <td><label for="Football">Football </label> </td>
+                            <td><input type="checkbox" class="cb" id="Running"></td>
+                            <td><label for="Running">Running </label> </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <button type="submit" id="submit">Login</button>
+                    <button type="reset" id="reset">Reset</button>
+
+                </div>
+
+            </fieldset>
+            <!-- </form> -->
+
+
+
+
+
+        </div>
+
+    </div>
+    <script src="/javaScript/lab3/task2.js"></script>
+
+</body>
+
+</html>
